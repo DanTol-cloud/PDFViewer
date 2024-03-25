@@ -10,13 +10,18 @@
     "test": "jest"
   },
   "dependencies": {
+    "@pdftron/react-native-pdf": "^3.0.4-3",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-document-picker": "^9.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@react-native-community/cli": "^13.6.3",
+    "@react-native-community/cli-platform-android": "^13.6.3",
+    "@react-native-community/cli-platform-ios": "^13.6.3",
     "@react-native/babel-preset": "0.73.21",
     "@react-native/eslint-config": "0.73.2",
     "@react-native/metro-config": "0.73.5",
